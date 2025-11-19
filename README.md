@@ -1,4 +1,4 @@
-# 昆虫识别与防治系统
+# Encyclopedia of Insects System
 
 一个基于Vue.js的昆虫信息查询应用程序，能够通过输入昆虫名称来查询昆虫种类的详细信息，并提供相关的防治建议。该应用采用现代化的Web技术栈，支持昆虫名称搜索、智能搜索建议和交互式昆虫图鉴功能。
 
@@ -114,30 +114,6 @@ npm run preview
    docker run -p 3000:80 insect-recognition
    ```
 
-## API接口说明
-
-### 获取昆虫详情接口
-
-**请求方式**：GET
-**URL**：`/api/insect/:name`
-**参数**：
-- `name`: 昆虫名称
-
-**响应**：
-```json
-{
-  "success": true,
-  "insect": {
-    "name": "蜜蜂",
-    "category": "益虫",
-    "description": "...",
-    "habitat": "...",
-    "diet": "...",
-    "lifespan": "...",
-    "controlMethods": "..."
-  }
-}
-```
 
 ### 获取所有昆虫名称接口
 
