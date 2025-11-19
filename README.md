@@ -37,7 +37,7 @@ npm install
 npm run dev
 ```
 
-访问 `http://localhost:5173` 查看应用。
+访问 `http://localhost:3000` 查看应用。
 
 ### 生产构建
 
@@ -115,17 +115,6 @@ npm run preview
    ```
 
 
-### 获取所有昆虫名称接口
-
-**请求方式**：GET
-**URL**：`/api/insects`
-**响应**：
-```json
-{
-  "success": true,
-  "insects": ["蜜蜂", "苍蝇", "蚂蚁", "蝴蝶", ...]
-}
-```
 
 ## 项目结构
 
